@@ -1,3 +1,5 @@
+
+// Criar gráfico com uma variável
 var meses = [
     'Janeiro',
     'Fevereiro',
@@ -11,6 +13,8 @@ var meses = [
 var valores = [
     2102, 2299, 4299, 3170, 4201, 5277, 5302
 ]
+
+// Código do Gráfico
 const ctx = document.getElementById("myChart")
 
 const labels = meses
